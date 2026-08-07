@@ -27,9 +27,9 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   * **¿Por qué usas `double` para el precio y no `int`?**  
     *R: Uso `double` porque el precio maneja valores con decimales.*
   * **¿Qué pasaría si declaras el precio como `int` y le asignas `3.50`?**  
-    *R: Java arrojará un error de compilación (`java: incompatible types: possible lossy conversion from double to int`), impidiendo la asignación.*
+    *R: Java arrojará un error de compilación (`java: incompatible types: possible lossy conversion from double to int`), impidiendo la asignación
 
-  [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio01.java)
+[🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio01.java)
 
 ---
 
@@ -40,7 +40,7 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   * **¿Qué tipo de dato devuelve ese operador?**  
     *R: Devuelve un tipo de dato booleano (`boolean`), cuyos valores son únicamente `true` o `false`.*
 
-      [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio02.java)
+[🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio02.java)
 
 ---
 
@@ -51,7 +51,7 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   * **¿Hay algún caso en este ejercicio donde el `switch` no sería la mejor opción?**  
     *R: Para este caso con opciones fijas de categoría, `switch` funciona adecuadamente.*
 
-      [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio03.java)
+[🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio03.java)
 
 ---
 
@@ -62,7 +62,7 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   * **¿Cómo lo prevendrías en este caso?**  
     *R: Definiendo y actualizando correctamente las condiciones dentro del ciclo.*
 
-      [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio04.java)
+[🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio04.java)
 
 ---
 
@@ -73,7 +73,7 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   * **Diferencia en el orden de ejecución:**  
     *R: El `do-while` ejecuta la acción al menos una vez antes de verificar la condición, mientras que el `while` evalúa la condición desde el inicio.*
 
-      [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio05.java)
+[🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio05.java)
 
 ---
 
@@ -84,7 +84,7 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   * **¿Qué lo hace más conveniente?**  
     *R: Permite declarar la variable de control, la condición y el incremento en una sola línea, lo que mejora la legibilidad.*
 
-      [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio06.java)
+[🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio06.java)
 
 ---
 
@@ -97,7 +97,7 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   3. **Error de lógica:** Uso del operador de asignación (`=`) en lugar del operador de comparación dentro del `if`.  
      *Solución: Usar la variable booleana directamente o emplear el operador `==`.*
 
-       [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio07.java)
+[🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio07.java)
 
 ---
 
