@@ -29,6 +29,8 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   * **¿Qué pasaría si declaras el precio como `int` y le asignas `3.50`?**  
     *R: Java arrojará un error de compilación (`java: incompatible types: possible lossy conversion from double to int`), impidiendo la asignación.*
 
+  [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio01.java)
+
 ---
 
 ### 2. Operadores
@@ -37,6 +39,8 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
     *R: El operador mayor que (`>`).*
   * **¿Qué tipo de dato devuelve ese operador?**  
     *R: Devuelve un tipo de dato booleano (`boolean`), cuyos valores son únicamente `true` o `false`.*
+
+      [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio02.java)
 
 ---
 
@@ -47,6 +51,8 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   * **¿Hay algún caso en este ejercicio donde el `switch` no sería la mejor opción?**  
     *R: Para este caso con opciones fijas de categoría, `switch` funciona adecuadamente.*
 
+      [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio03.java)
+
 ---
 
 ### 4. `while`
@@ -55,6 +61,8 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
     *R: El programa entra en un bucle infinito.*
   * **¿Cómo lo prevendrías en este caso?**  
     *R: Definiendo y actualizando correctamente las condiciones dentro del ciclo.*
+
+      [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio04.java)
 
 ---
 
@@ -65,6 +73,8 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   * **Diferencia en el orden de ejecución:**  
     *R: El `do-while` ejecuta la acción al menos una vez antes de verificar la condición, mientras que el `while` evalúa la condición desde el inicio.*
 
+      [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio05.java)
+
 ---
 
 ### 6. `for` y Arrays
@@ -73,6 +83,8 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
     *R: Porque se conoce de antemano la cantidad exacta de iteraciones, definida por la longitud del arreglo.*
   * **¿Qué lo hace más conveniente?**  
     *R: Permite declarar la variable de control, la condición y el incremento en una sola línea, lo que mejora la legibilidad.*
+
+      [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio06.java)
 
 ---
 
@@ -85,6 +97,8 @@ El taller abarca desde fundamentos de sintaxis en Java hasta la construcción de
   3. **Error de lógica:** Uso del operador de asignación (`=`) en lugar del operador de comparación dentro del `if`.  
      *Solución: Usar la variable booleana directamente o emplear el operador `==`.*
 
+       [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteI/Ejercicio07.java)
+
 ---
 
 ## Parte 2: Sistema de Turno de Cafetería
@@ -96,3 +110,5 @@ En la segunda parte del proyecto se implementó un programa unificado que proces
 - **Procesamiento de Pedidos:** Recorrido mediante `for` imprimiendo detalle de ítem, cantidad, subtotal y categoría mediante `switch`.
 - **Descuentos Automáticos:** Aplicación de un **10% de descuento** en pedidos superiores a `$12.000`.
 - **Cierre y Reporte:** Generación de un informe final con el total de pedidos procesados, recaudación e identificación del pedido con mayor valor.
+
+   [🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteII/ARCHIVO.java)
