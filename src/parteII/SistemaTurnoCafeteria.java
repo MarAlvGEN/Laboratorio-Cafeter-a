@@ -44,20 +44,15 @@ public class SistemaTurnoCafeteria {
                     int stockTotal = stock[pedidoProducto[i]] - productoCantidad;
                     boolean tieneDescueto = false;
 
+                    System.out.println("################################");
+                    System.out.printf("Pedido #%d\n", productoPedido);
                     if (subtotal <= 0) {
-                        System.out.println("################################");
-                        System.out.println("Pedido #" + productoPedido + "\n");
-
                         System.out.println("ERROR: SUBTOTAL DEBE SER SUPERIOR A 0\n");
                         continue;
                     } else if (stockTotal < 0) {
                         System.out.println("NO HAY STOCK PARA PROCESAR ESA VENTA - VERIFICAR PEDIDO\n");
                         continue;
                     } else {
-
-                        System.out.println("################################");
-                        System.out.println("Pedido #" + productoPedido + "\n");
-
                         if (subtotal > 12000) {
                             descuentoMonto = subtotal * 10 / 100;
                             tieneDescueto = true;
@@ -105,14 +100,12 @@ public class SistemaTurnoCafeteria {
                         System.out.printf("PRECIO FINAL:  $%.2f \n\n", precioFinal);
                     }
                 }
-
-
-                System.out.printf("### PEDIDO FINAL ###\n" +
+                System.out.printf(
+                        "### PEDIDO FINAL ###\n" +
                         "Número del pedido de mayor valor: %d \n" +
                         "Valor del pedido: %.2f", pedidoMayorValor, mayorValor);
             }
             intento++;
         } while (error);
-
     }
 }
