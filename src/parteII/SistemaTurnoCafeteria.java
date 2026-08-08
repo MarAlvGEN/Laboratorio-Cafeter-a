@@ -101,8 +101,8 @@ public class SistemaTurnoCafeteria {
                     }
                 }
                 System.out.printf(
-                        "### PEDIDO FINAL ###\n" +
-                        "Número del pedido de mayor valor: %d \n" +
+                        "### PEDIDO MAYOR VALOR ###\n" +
+                        "Número del pedido: %d \n" +
                         "Valor del pedido: %.2f", pedidoMayorValor, mayorValor);
             }
             intento++;
