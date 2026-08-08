@@ -111,4 +111,4 @@ En la segunda parte del proyecto se implementó un programa unificado que proces
 - **Descuentos Automáticos:** Aplicación de un **10% de descuento** en pedidos superiores a `$12.000`.
 - **Cierre y Reporte:** Generación de un informe final con el total de pedidos procesados, recaudación e identificación del pedido con mayor valor.
 
-[🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/PARTEII/src/parteII/SistemaTurnoCafeteria.java)
+[🌐 Checa el código](https://github.com/MarAlvGEN/Laboratorio-Cafeter-a/blob/main/src/parteII/SistemaTurnoCafeteria.java)
